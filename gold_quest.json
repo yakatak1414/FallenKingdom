@@ -37,7 +37,7 @@
   "Comment": "NoGold",
   "HighlightClickEntity": "goldfetch",
   "If": [],
-  "HasItem": ["Gold ore" 32],
+  "HasItem": ["Gold ore", 32],
   "Skip": "GoldIngot",
   "Dialog": [{ "Steve": "Hello there [PLAYER] I thought i told you to mine 32 Gold."}],
   "Skip": "NoGold",
