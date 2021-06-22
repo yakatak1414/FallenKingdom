@@ -24,7 +24,7 @@
   "Comment": "NoPickaxe",
   "HighlightClickEntity": "goldfetch",
   "If": [],
-  "HasItem": [{"Material": "iron pickaxe"}, 1],
+  "HasItem": [{"Material": "dirt"}, 1],
   "Skip": "Pickaxe",
   "Dialog": [{ "Steve": "[PLAYER] I thought I told you that you need an iron pickaxe to mine gold."}],
   "Skip": "NoPickaxe",
