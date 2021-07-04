@@ -29,7 +29,7 @@
   "If": [],
   "HasItem": ["fallen_iron_pickaxe", 1],
   "Skip": "Pickaxe",
-  "Dummmy": [],
+  "Dummy": [],
   "If": [],
   "HasItem": ["fallen_diamond_pickaxe", 1],
   "Skip": "Pickaxe",
