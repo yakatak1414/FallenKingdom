@@ -49,7 +49,7 @@
   "Dialog": [{ "Jeff": "Hello there [PLAYER] I thought i told you to mine 32 Gold."}],
   "Skip": "NoGold",
   "Comment": "GoldIngot",
-  "Dialog": [{ "Jeff": "Congratulations on collecting the gold."}],
+  "Dialog": [{ "Jeff": "Congratulations on collecting the gold on second thought you keep it."}],
   "Wait": 10,
   "Dialog": [{ "Jeff": "I heard you could use that to upgrade your castle."}],
   "Wait": 10,
