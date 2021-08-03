@@ -10,7 +10,11 @@
               "signature": "jpepobAvfhEOg+RHdLZup/w3q6pZyQ6Q8HIjXoCi+M1149Qn9dtJTCxAdseeSTwNMU7Nrtsmn8+pgFvmsoQfMlq7GbmYJ4Sej9FYFcACAav9c383XsshAk20jeA5bGgCxaGizMcWnKXR7zakjtlVOBF3qhsBGR7KWeoAvCGYwalIwUND6G0AzwHtjDxR1g0DBUDUkpnY2l47pjeY0f6BUYfJ35EcU8HZRQGV0urzDSX9aIFkxSI4QTgnowY4i1jIWampIKXR7gU17W2LDTlXFuUXY1Bi1TyHVo4ye9G3XP+VIOakTkwBVsRmlqvvo8GmMCTNcxRtLdSLiyc6b1JQ4CN2bqJWlA3ZX+pueaEXeEA/WAoknS4BXCfeWJ9gPtKI4vldEJ4pVnVJo2kc1CIRFQqlZf/HwKwUtLmGXZLRCBQQqwv0I4DIsF3GdtG4rRUHhSQyMlpC55rbCpNftgiVO1F4JKueSBikF17qeinlQNY8DovaaItYJ5ghP3KSz9wyb8YH+8rXT6hAfh4kgP+LmADCPS/33g8P1JdJavHEP4N1H8Ys+eu2gTI2WPgzW0cu/lrWSM0bXoCCtjvMPtP+XrWmQDK4mDJCUJIo8YkmQBB81N+9g95gqExxsHY8i7yu1De89WkJMaoBUWjB6QnHwc6T6Yyp79SfzAAC8W9TLJY="},
     "look": true
   },
-  "HasKingdomBuilding": [ "Blacksmith", 2],
+  "If": [],
+  "HasKingdomBuilding": [ "blacksmith", 2],
+  "Skip": "start",
+  "Leave": [],
+  "Comment": "start",
   "HighlightClickEntity": "goldfetch",
   "Dialog": [{ "Jeff": "Hello there [PLAYER]." }],
   "Wait": 10,
