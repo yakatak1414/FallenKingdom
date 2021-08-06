@@ -1,0 +1,103 @@
+{
+  "Key": "the_woods",
+  "Description": "Forest Jordon",
+  "Author": "Yakatak1414",
+  "CreateEntity":{
+    "key": "Xen",
+    "location": [0, 0, 0, 0],
+    "name": "Hunter Xen",
+    "look": true},
+    "HighlightClickEntity": "Xen",
+    "Dialog": [{ "Hunter Xen": "You there!" }],
+    "Wait": 10,
+    "Dialog": [{ "[PLAYER]": "Me?" }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Yes you, you look like you need something to do." }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "I know when someone is bored and needs something to do." }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "I plan these things out ya know." }],
+    "Wait": 10,
+
+    "responce 1": [{"[PLAYER]": "Sure! What needs doing?"}],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Great! Now, I need mant things, but let's start off simple." }],
+    "Dialog": [{ "Hunter Xen": "Can you fetch me 64 Cobblestone?" }],
+    "Wait": 10,
+    "skip": "getcobble",
+
+    "responce 2": [{"[PLAYER]": "How did you know that?"}],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "I just do! Now, can go grab 64 Cobblestone, thanks!" }],
+    "Wait": 10,
+    "skip": "getcobble",
+
+    "responce 3": [{"[PLAYER]": "..."}],
+    "Dialog": [{ "Hunter Xen": "Not much of a talker, eh?" }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Well, you can still help me out regardless." }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Cobblestone, you know what that is? I need 64 of them." }],
+    "Wait": 10,
+    "skip": "getcobble",
+
+    "Comment": "getcobble",
+    "HighlightClickEntity": "Xen",
+    "If": [],
+    "HasItem": [
+      "material": "Cobblestone",
+      "amount": 64
+    ],
+    "Skip": "hascobble",
+    "Dialog": [{ "Hunter Xen": "I thought I told you I need 64 cobble" }],
+    "skip": "getcobble",
+
+    "Comment": "hascobble",
+    "ProvideItem": ["Xen", "Cobblestone", 64],
+    "Dialog": [{ "Hunter Xen": "Thank you!" }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Now, onto more pressing matters." }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "You have heard of the Golden Chicken, yea?" }],
+    "Wait": 10,
+
+    "responce 1": [{"[PLAYER]": "Yes, yes I have"}],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Great! Now, I need mant things, but let's start off simple." }],
+    "Dialog": [{ "Hunter Xen": "Can you fetch me 64 Cobblestone?" }],
+    "Wait": 10,
+    "skip": "getflesh",
+
+    "responce 2": [{"[PLAYER]": "The Golden Chicken?"}],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "I just do! Now, can go grab 64 Cobblestone, thanks!" }],
+    "Wait": 10,
+    "skip": "getflesh",
+
+    "responce 3": [{"[PLAYER]": "..."}],
+    "Dialog": [{ "Hunter Xen": "Really arn't a talker, are ya?" }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Well, you can still help me out regardless." }],
+    "Wait": 10,
+    "Dialog": [{ "Hunter Xen": "Cobblestone, you know what that is? I need 64 of them." }],
+    "Wait": 10,
+    "skip": "getflesh",
+
+    "Comment": "getflesh",
+    "HighlightClickEntity": "Xen",
+    "If": [],
+    "HasItem": [
+      "material": "Rotten Flesh",
+      "amount": 10
+    ],
+    "Skip": "hasflesh",
+    "Dialog": [{ "Hunter Xen": "I thought I told you I need 64 cobble" }],
+    "skip": "getflesh",
+
+    "Comment": "hasflesh",
+"ProvideItem": ["Xen", "Cobblestone", 64],
+
+
+
+
+    }
