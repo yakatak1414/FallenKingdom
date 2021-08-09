@@ -14,6 +14,7 @@
   "If": [],
   "HasKingdomBuilding": [ "blacksmith", 2],
   "Skip": "start",
+  "Dialog":"I'd love your help but you need Blacksmith 2 first.",
   "Leave": [],
   "Comment": "start",
   "Dialog": [{ "Jeff": "Hello there [PLAYER]." }],
