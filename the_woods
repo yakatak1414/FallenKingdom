@@ -6,7 +6,8 @@
     "key": "Xen",
     "location": [0, 0, 0, 0],
     "name": "Hunter Xen",
-    "look": true},
+    "look": true
+  },
     "HighlightClickEntity": "Xen",
     "Dialog": [{ "Hunter Xen": "You there!" }],
     "Wait": 10,
@@ -18,21 +19,27 @@
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "I plan these things out ya know." }],
     "Wait": 10,
+    "SendMessageOptions": [
+    "&7➠ &4&nSure! What needs doing?", "&7➠ &6&nHow did you know that?",
+    "&7➠ &1&n..." ],
+    "Skip": "responce 1",
+    "Skip": "responce 2",
+    "Skip": "responce 3",
 
-    "responce 1": [{"[PLAYER]": "Sure! What needs doing?"}],
+  "Comment": "responce 1",
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Great! Now, I need mant things, but let's start off simple." }],
     "Dialog": [{ "Hunter Xen": "Can you fetch me 64 Cobblestone?" }],
     "Wait": 10,
     "skip": "getcobble",
 
-    "responce 2": [{"[PLAYER]": "How did you know that?"}],
+  "Comment": "responce 2",
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "I just do! Now, can go grab 64 Cobblestone, thanks!" }],
     "Wait": 10,
     "skip": "getcobble",
 
-    "responce 3": [{"[PLAYER]": "..."}],
+  "Comment": "responce 3",
     "Dialog": [{ "Hunter Xen": "Not much of a talker, eh?" }],
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Well, you can still help me out regardless." }],
@@ -41,7 +48,7 @@
     "Wait": 10,
     "skip": "getcobble",
 
-    "Comment": "getcobble",
+  "Comment": "getcobble",
     "HighlightClickEntity": "Xen",
     "If": [],
     "HasItem": [
@@ -52,7 +59,7 @@
     "Dialog": [{ "Hunter Xen": "I thought I told you I need 64 cobble" }],
     "skip": "getcobble",
 
-    "Comment": "hascobble",
+  "Comment": "hascobble",
     "ProvideItem": ["Xen", "Cobblestone", 64],
     "Dialog": [{ "Hunter Xen": "Thank you!" }],
     "Wait": 10,
@@ -60,8 +67,14 @@
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "You have heard of the Golden Chicken, yea?" }],
     "Wait": 10,
+    "SendMessageOptions": [
+    "&7➠ &4&nYes, yes I have", "&7➠ &6&nThe Golden Chicken?",
+    "&7➠ &1&n..." ],
+    "Skip": "responce 4",
+    "Skip": "responce 5",
+    "Skip": "responce 6",
 
-    "responce 1": [{"[PLAYER]": "Yes, yes I have"}],
+  "Comment": "responce 4",
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Great, I believe that it lives around here." }],
     "Wait": 10,
@@ -75,13 +88,13 @@
     "Wait": 10,
     "skip": "getflesh",
 
-    "responce 2": [{"[PLAYER]": "The Golden Chicken?"}],
+  "Comment": "responce 5",
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Yes! The one that killed Rick! That Chicken!" }],
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "You seriously don't know about it?" }],
     "Wait": 10,
-    "Dialog": [{ "Hunter Xen": "... Sigh..." }],
+    "Dialog": [{ "Hunter Xen": "&r뜃" }],
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Well, I want to kill it, and I believe that it lives around here." }],
     "Wait": 10,
@@ -91,7 +104,7 @@
     "Wait": 10,
     "skip": "getflesh",
 
-    "responce 3": [{"[PLAYER]": "..."}],
+  "Comment": "responce 6",
     "Dialog": [{ "Hunter Xen": "Really arn't a talker, are ya?" }],
     "Wait": 10,
     "Dialog": [{ "Hunter Xen": "Anyways, you seem cooperative enough, so let's do this." }],
@@ -102,7 +115,7 @@
     "Wait": 10,
     "skip": "getflesh",
 
-    "Comment": "getflesh",
+  "Comment": "getflesh",
     "HighlightClickEntity": "Xen",
     "If": [],
     "HasItem": [
@@ -117,22 +130,76 @@
     "Dialog": [{ "Hunter Xen": "I thought I told you I need 10 Rotten Flesh and 8 Bones!" }],
     "skip": "getflesh",
 
-    "Comment": "hasflesh",
+  "Comment": "hasflesh",
     "ProvideItem": ["Xen", "Rotten Flesh", 10],
     "ProvideItem": ["Xen", "Bone", 8],
     "Dialog": [{ "Hunter Xen": "Perfect! Now, go stand over there while I prepare this." }],
     "Wait": 10,
+    "Start": "the_woods2",
+  "Hold": [],
 
-    "Dialog": [{ "Hunter Xen": "Just this, and then this, and a little more-" }],
-    "Wait": 10,
-    "Dialog": [{ "Hunter Xen": "Presto! Some Chicken Bait!" }],
-    "Wait": 10,
-    "Dialog": [{ "Hunter Xen": "Don’t look at me like that!" }],
-    "Wait": 10,
-    "Dialog": [{ "Hunter Xen": "I know chickens don't eat meat, but this one does." }],
-    "Wait": 10,
-    "Dialog": [{ "Hunter Xen": "Now all we do is wait" }],
-    "Wait": 10,
+
+     "HighlightClickEntity": "Xen",
+     "Dialog": [{ "Hunter Xen": "I swear this thing eats meat, it raided my backpack last night!" }],
+     "Wait": 10,
+     "Dialog": [{ "Hunter Xen": "Maybe we need a different approach, stuff from nearby here." }],
+     "Wait": 10,
+     "Dialog": [{ "Hunter Xen": "There were some torn up roots nearby, I think we should try some of those." }],
+     "Wait": 10,
+     "Dialog": [{ "Hunter Xen": "I think 16 of them should be enough." }],
+     "Wait": 10,
+
+   "Comment": "getroots",
+      "HighlightClickEntity": "Xen",
+      "If": [],
+      "HasItem": [
+      "material": "Roots",
+      "amount": 16],
+      "Skip": "hasroots",
+      "Dialog": [{ "Hunter Xen": "I thought I told you I need 16 roots I can't do anything without them." }],
+      "skip": "getroots",
+
+   "Comment": "hasroots",
+      "ProvideItem": ["Xen", "Roots", 16],
+      "Dialog": [{ "Hunter Xen": "That seems fresh alright, great work." }],
+      "Wait": 10,
+      "Dialog": [{ "Hunter Xen": "I gathered some other items myself, but I think we still need more." }],
+      "Wait": 10,
+      "Dialog": [{ "Hunter Xen": "Honey, I think there’s a tree around here with some..." }],
+      "Wait": 10,
+      "Dialog": [{ "Hunter Xen": "While you’re grabbing that, I’ll prep somewhere for us to put the bait." }],
+      "Wait": 10,
+      "Dialog": [{ "Hunter Xen": "I guess 32 of them should do the trick." }],
+      "Wait": 10,
+
+  "Hold": [],
+  "Hold": [],
+
+
+    "Comment": "gethoney",
+         "HighlightClickEntity": "Xen",
+         "If": [],
+         "HasItem": [
+         "material": "hunny",
+         "amount": 32],
+         "Skip": "hashoney",
+
+
+    "Comment": "hashunny",
+        "ProvideItem": ["Xen", "hunny", 32],
+        "Dialog": [{ "Hunter Xen": "Oh hey, you’re back..." }],
+        "Wait": 10,
+        "Dialog": [{ "Hunter Xen": "Oh dear, you got stung didn’t you?" }],
+        "Wait": 10,
+        "Dialog": [{ "Hunter Xen": "Oh well, at least you got some quality honey." }],
+        "Wait": 10,
+        "Dialog": [{ "Hunter Xen": "That, paired with what I got, should be enough to draw out that pesky chicken." }],
+        "Wait": 10,
+        "Dialog": [{ "Hunter Xen": "Here, I prepared a little place to bait it out" }],
+        "Wait": 10,
+
+"Hold": [],
+
 
 
 
