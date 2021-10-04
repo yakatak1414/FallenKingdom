@@ -18,4 +18,55 @@
   "MoveEntity": ["xen", 0,0,0],
   "Dialog": [{ "Hunter Xen": "Now all we do is wait" }],
   "Wait": 50,
+
+  "Progress": "the_woods",
+
+
+  "Cinematic": [],
+  "SetScoreboard": "",
+  "Teleport": [0,0,0,],
+  "Look": ["PLAYER", "center" ],
+  "Dialog": [{ "Hunter Xen": "What the heck!" }],
+  "Wait": 10,
+  "Dialog": [{ "Hunter Xen": "That’s it! The Golden Chicken!" }],
+  "Wait": 10,
+  "Dialog": [{ "Hunter Xen": "Kill it, quickly!" }],
+  "Wait": 10,
+
+chicken dies,
+
+"Dialog": [{ "Hunter Xen": "What the heck!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "I swear it’s stronger than that, it killed Rick!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "And this thing just died in one hit!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "*Xen takes a closer look at it*" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "Odd, this coloring reminds me of Fool’s Gold." }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "Have I been tricked?!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "*He starts pacing, almost lost in thought*" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "I could’ve sworn it was Gold…" }],
+"Wait": 10,
+"Dialog": [{ "PLAYER": "What’s that sound? It’s not Xen…" }],
+"Wait": 10,
+
+real chicken is behind them
+
+"Dialog": [{ "PLAYER": "What is that?!" }],
+"Wait": 10,
+"Dialog": [{ "???": "Powakkkkkk!" }],
+"Wait": 10,
+"Dialog": [{ "PLAYER": "Whatever it was fled, though it dropped something." }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "Hey? You ok?" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "You were just staring out into the woods for a bit there" }],
+"Wait": 10,
+"give": [{Cobalt Bone 1}],
+
+
   "Progress": "the_woods"
