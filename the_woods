@@ -172,6 +172,9 @@
       "Dialog": [{ "Hunter Xen": "I guess 32 of them should do the trick." }],
       "Wait": 10,
 
+"Start": "the_woods_fetch_quest",
+"Start": "the_woods_kill_quest",
+
   "Hold": [],
   "Hold": [],
 
@@ -263,6 +266,6 @@
           "skip": "end",
 
   "Comment": "end",
-        
+
 
     }

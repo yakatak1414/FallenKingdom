@@ -3,8 +3,8 @@
  "Author": "Yakatak1414",
 },
 
-
-
+"KillMythicMob": [ "Hunnyswarmer", 5 ],
+"GiveItem": "Stinger",
 
 
 
