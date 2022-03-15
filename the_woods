@@ -200,7 +200,14 @@
         "Wait": 10,
         "Dialog": [{ "Hunter Xen": "Here, I prepared a little place to bait it out" }],
         "Wait": 10,
+"Start": "the_woods3",
+"Hold": [],
 
+  "SpawnMythicMob": ["Golden1 chicken",0,0,0,0],
+      "KillMythicMob": [ "Golden1 chicken", 1 ],  
+
+
+"Start": "the_woods4",
 "Hold": [],
 
         "Dialog": [{ "Hunter Xen": "Did you see something?" }],
@@ -263,6 +270,7 @@
           "Wait": 10,
           "Dialog": [{ "Hunter Xen": "I may have a few items worth your time." }],
           "Wait": 10,
+
           "skip": "end",
 
   "Comment": "end",

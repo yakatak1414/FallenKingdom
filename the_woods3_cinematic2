@@ -1,0 +1,17 @@
+{
+  "Key": "the_woods3",
+ "Author": "Yakatak1414",
+},
+
+"Cinematic": [],
+"SetScoreboard": "",
+"Teleport": [0,0,0,],
+"Look": ["PLAYER", "center" ],
+"Dialog": [{ "Hunter Xen": "What the heck!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "That’s it! The Golden Chicken!" }],
+"Wait": 10,
+"Dialog": [{ "Hunter Xen": "Kill it, quickly!" }],
+"Wait": 10,
+"StopCinematic": [],
+  "Progress": "the_woods",

@@ -1,0 +1,23 @@
+{
+  "Key": "the_woods2",
+ "Author": "Yakatak1414",
+},
+
+  "Cinematic": [],
+  "SetScoreboard": "",
+  "Teleport": [0,0,0,],
+  "Look": ["PLAYER", "center" ],
+  "Dialog": [{ "Hunter Xen": "Just this, and then this, and a little more-" }],
+  "Wait": 10,
+  "Dialog": [{ "Hunter Xen": "Presto! Some Chicken Bait!" }],
+  "Wait": 10,
+  "Dialog": [{ "Hunter Xen": "Don’t look at me like that!" }],
+  "Wait": 10,
+  "Dialog": [{ "Hunter Xen": "I know chickens don't eat meat, but this one does." }],
+  "Wait": 10,
+  "MoveEntity": ["xen", 0,0,0],
+  "Dialog": [{ "Hunter Xen": "Now all we do is wait" }],
+  "Wait": 50,
+"StopCinematic": [],
+
+  "Progress": "the_woods",
