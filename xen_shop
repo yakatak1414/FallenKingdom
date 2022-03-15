@@ -1,0 +1,6 @@
+"ShopMenu": [
+  "name",
+  size, (whole number)
+  "currency",
+  items
+],
